@@ -23,8 +23,8 @@ The goal with this project is to better familarize myself with the way CPU sched
  - CPU.c
  - cpu.h
  - driver.c
- - list.c (Updated)
- - list.h (Updated)
+ - list.c
+ - list.h
  - schedulers.h
  - task.h
  - Makefile
