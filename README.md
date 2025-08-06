@@ -1,2 +1,4 @@
 # CPU-Scheduling
 Repository for my CPU Scheduling project
+
+The goal with this project is to better familarize myself with the way CPU scheduling is handled and how it can be altered and implemented. To do so, I use some base files as an outline and then implement the actual scheduling algorithms. The supporting files invoke the appropriate scheduling algorithm. These algorithms include: Round Robin, First-Come First-Serve, Shortest Job First, Priority, and Priority Round Robin. The driver.c file will read in given tasks, insert them into a linked list, and invoke the schedule() function to execute the specified scheduling algorithm which is what I must implement. I will be simulate CPU scheduling using the pickNextTask() function to choose the task that should be executed by the CPU using the run() function. For further analysis, the average turnaround time, waiting time, and response time will be calculated for each of the scheduling algorithms. 
